@@ -1,0 +1,51 @@
+.ContainerColor{
+    width: 20%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1rem;
+}
+.ContainerColor > div{
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+.ColorGrenn{
+    margin-top: 0.5rem;
+    width: 25px;
+    height: 25px;
+    background-color: #00ff80c6;
+    border-radius:1rem;
+}
+.ColorGrenn > span{
+    margin-left: 1.2rem;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.ColorRed > span{
+    margin-left: 1.2rem;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.ColorEmpatar > span{
+    margin-left: 1.2rem;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.ColorSpan{
+    font-family: poppins;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.ColorRed{
+    margin-top: 0.5rem;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(253, 39, 39);
+    border-radius:1rem;
+}
+.ColorEmpatar{
+    margin-top: 0.5rem;
+    width: 25px;
+    height: 25px;
+    background-color: var(--Yellow);
+    border-radius:1rem;
+}

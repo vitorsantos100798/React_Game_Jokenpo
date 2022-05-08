@@ -1,0 +1,80 @@
+.ContainerRodadas{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 70rem;
+    height: 11rem;
+    flex-direction: column;
+    background-color: var(--Red);
+    border-radius: 1rem;
+}
+.ContainerRounds{
+  
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.ContainerRounds > span{
+    border-bottom: 1px solid white;
+    font-size:1rem;
+    letter-spacing:3px;
+    font-weight:bold;
+    font-family: poppins;
+}
+.ContainerLoopRodadas{
+    width:100%;
+    height:2.6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+.ContainerLoopRodadas > div {
+    background-color: var(--Pastel);
+    margin-top: 0.5rem;
+    width:33%;
+    height:2rem;
+    border-right: 1px solid white;
+}
+.NumberRounds{
+    width:4rem !important;
+    height:100%;
+    
+}
+.ContainerLoopRodadas > div > span {
+    font-size: 0.8rem;
+    font-family: poppins;
+    color: #d69a3ade;
+    letter-spacing:1px;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.ResultRounds{
+    width:100%;
+    height:8.5rem;
+    display: flex;
+    justify-content:space-around;
+}
+.ResultRounds > div{
+    border-right: 1px solid white;
+    width:100%;
+    height:5.5rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: poppins;
+}
+.NumberRoundsList{
+    width:12rem !important;
+}
+.NumberRoundsList > h1 {
+    color:white;
+    font-size: 3rem;
+    border-bottom: 2 solid white;
+}

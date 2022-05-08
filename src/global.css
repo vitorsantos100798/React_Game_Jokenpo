@@ -1,0 +1,25 @@
+:root{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(255, 255, 255);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+body{
+    --Black: #3b331f;
+    --Red:#ed6362;
+    --Orange:#ff8e65;
+    --Yellow: #dceb5b;
+    --Grenn: #58ce74;
+    --Blue: #affbff;
+    --Pastel: #fff1cf;
+    --Font-Desktop:1rem;
+    --Font-Tablet:0.875rem;
+    --Font-Mobile:0.75rem;
+    --Font-family: "Poppins";
+}

@@ -1,0 +1,15 @@
+.ContainerBoxImagePc{
+    width: 200px;
+    height: 200px;
+    border-right: 2px solid white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.ContainerBoxImagePcTwo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
