@@ -22,7 +22,6 @@ export const ContextProvider = ({ children }) => {
   const [logPlayerOnePoints, setLogPlayerOnepoints]= useState();
  
   const [logPlayerTwoPoints, setLogPlayerTwopoints]= useState();
-
 // state Iniciali
 useEffect(()=>{
   setLogYourpoints(null)
@@ -199,9 +198,13 @@ return (
       roundCount,
       random,
       randomTwo,
-      logYourPoints,
-      logPlayerOnePoints,
-      logPlayerTwoPoints,
+      setYourpoints,
+      setPlayerOnepoints,
+      setPlayerTwopoints,
+      setLogYourpoints,
+      setLogPlayerOnepoints,
+      setLogPlayerTwopoints
+
 
     }}
   >

@@ -1,3 +1,27 @@
+.Btn-List{
+    height:4rem;
+    width: 15rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bungee Shade', cursive;
+    font-weight: bold;
+    letter-spacing: 10px;
+    background-color: purple;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    font-size: 1rem;
+    letter-spacing:1px;
+    margin-right: 1rem;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.Btn-List:hover{
+    font-size: 1.2rem;
+    transition: all 0.3s; 
+}
 
 
 .ContainerHeader{

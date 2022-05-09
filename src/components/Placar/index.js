@@ -1,9 +1,11 @@
 import React from 'react';
 import { useContext } from 'react';
 import { MainContext } from '../../contexts/Context'
+import { useNavigate } from 'react-router-dom';
 import "./placar.css";
 
 const Placar = ()=> {
+    let navigate = useNavigate();
     const {
     playerOne,
     playerTwo,
@@ -55,6 +57,7 @@ const Placar = ()=> {
                 </div>
             </div>
         </div>
+        {yourPoints === 3 || playerOne === 3 || playerTwo === 3 ? navigate("/Champion")  : null }
         </>
     )
 }

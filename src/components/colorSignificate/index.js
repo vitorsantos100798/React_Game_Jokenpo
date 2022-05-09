@@ -6,17 +6,17 @@ function Color() {
     <div className="ContainerColor">
       
       <div className="ColorGrenn">
-      <span className="ColorSpan">GANHOU</span>
+      <span className="ColorSpan">GAIN</span>
       </div>
      
       
       <div className="ColorRed">
-      <span className="ColorSpan">PERDEU</span>
+      <span className="ColorSpan">LOSE</span>
       </div>
      
       
       <div className="ColorEmpatar">
-      <span className="ColorSpan">EMPATE</span>
+      <span className="ColorSpan">TIE</span>
       </div>
       
     </div>
