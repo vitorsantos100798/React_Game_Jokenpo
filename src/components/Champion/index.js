@@ -26,19 +26,20 @@ const Champion = () => {
     }
     
   const HandlerChampion = ()=>{
-    if(yourPoints === 3){
+    if(yourPoints === 5){
       return "YOU"
     }
-    if(playerOne === 3){
+    if(playerOne === 5){
       return "PLAYER ONE"
     }
-    if(playerTwo === 3){
+    if(playerTwo === 5){
       return "PLAYER TWO"
     }
   }
   return (
     <>
-      <div class="wrapper">
+     <div className="Trofeu">
+     <div class="wrapper">
         <nav>
           <img
             src={Trofeu}
@@ -99,7 +100,9 @@ const Champion = () => {
           <span className="dot"></span>
         </div>
       </div>
+     </div>
     </>
+    
   );
 };
 

@@ -15,6 +15,7 @@ h6 > span {
 img{
   z-index:3;
 }
+
 .Btn-Link{
   margin-top: 2rem;
   margin-left: 2rem;
@@ -34,6 +35,17 @@ img{
 .Btn-Link:hover{
   transform: scale(1.1);
   transition: all 0.5s;
+}
+.Trofeu{
+  width: 100vw;
+  height: 100vh;
+}
+.LogRodadas{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--Red);
 }
 .wrapper {
     height: 100%;

@@ -1,13 +1,9 @@
-import React from 'react';
+import React from "react";
 import "./rodadas.css";
-import { useContext } from 'react';
-import { MainContext } from '../../contexts/Context'
+import { useContext } from "react";
+import { MainContext } from "../../contexts/Context";
 const Rodadas = () => {
-  const { 
-    roundCount, 
-    logYourPoints,
-    logPlayerOnePoints,
-    logPlayerTwoPoints, } = useContext(MainContext);
+  const { roundCount, allRounds } = useContext(MainContext);
   return (
     <>
       <div className="ContainerRodadas">
@@ -30,23 +26,16 @@ const Rodadas = () => {
         </div>
 
         <div className="ResultRounds">
-          <div className="NumberRoundsList" >
-             <h1>{roundCount}</h1>
+          <div className="NumberRoundsList">
+            <h1>{roundCount}</h1>
           </div>
-          <div>
-            { logYourPoints }
-          </div>
-          <div>
-            { logPlayerOnePoints }
-          </div>
-          <div>
-            { logPlayerTwoPoints }
-          </div>
+          <div>{allRounds[allRounds.length - 1][0]}</div>
+          <div>{allRounds[allRounds.length - 1][1]}</div>
+          <div>{allRounds[allRounds.length - 1][2]}</div>
         </div>
       </div>
     </>
   );
 };
-
 
 export default Rodadas;
