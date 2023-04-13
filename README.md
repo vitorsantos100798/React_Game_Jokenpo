@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Jokenpo em React</h1>
+  <p>Este é um projeto em React para criar o jogo Jokenpo.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h2>Instalação</h2>
+  <ol>
+    <li>Clone o repositório:</li>
+    <pre><code>git clone https://github.com/vitorsantos100798/React_Game_Jokenpo</code></pre>
 
-## Available Scripts
+    <li>Navegue até a pasta do projeto:</li>
+    <pre><code>cd nome-do-repositorio</code></pre>
 
-In the project directory, you can run:
+    <li>Instale as dependências:</li>
+    <pre><code>npm install</code></pre>
+  </ol>
 
-### `npm start`
+  <h2>Utilização</h2>
+  <p>Para iniciar o servidor local, utilize o comando:</p>
+  <pre><code>npm start</code></pre>
+  <p>Acesse <a href="http://localhost:3000">http://localhost:3000</a> em seu navegador.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h2>Funcionalidades</h2>
+  <ul>
+    <li>Jogo Jokenpo com as opções de pedra, papel e tesoura.</li>
+    <li>Possibilidade de jogar contra a máquina.</li>
+    <li>Placar para exibir a pontuação dos jogadores.</li>
+  </ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h2>Tecnologias utilizadas</h2>
+  <ul>
+    <li>React</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  <ul>
+  <li><a href="https://www.linkedin.com/in/vitor-santos-6b2727211/">LinkedIn</a></li>
+  <li><a href="https://www.instagram.com/vitorsantosic/">Instagram</a></li>
+  <li><a href="https://www.youtube.com/channel/UCuAgCSAOAWiI-mv_NzUerXg">YouTube</a></li>
+</ul>
 
-### `npm test`
+  <h2>Licença</h2>
+  <p>Este projeto está sob a licença MIT. Para mais informações, acesse o arquivo <a href="LICENSE">LICENSE</a>.</p>
+</body>
+</html>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
