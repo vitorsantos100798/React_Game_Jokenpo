@@ -8,16 +8,16 @@
   <p>Este é um projeto em React para criar o jogo Jokenpo.</p>
 
   <h2>Instalação</h2>
-  <ul>
-    <li>Clone o repositório:</li>
+  
+    <h6>Clone o repositório:</h6>
     <pre><code>git clone https://github.com/vitorsantos100798/React_Game_Jokenpo</code></pre>
 
-    <li>Navegue até a pasta do projeto:</li>
+    <h6>Navegue até a pasta do projeto:</h6>
     <pre><code>cd nome-do-repositorio</code></pre>
 
-    <li>Instale as dependências:</li>
+    <h6>Instale as dependências:</h6>
     <pre><code>npm install</code></pre>
-  </ul>
+
 
   <h2>Utilização</h2>
   <p>Para iniciar o servidor local, utilize o comando:</p>
