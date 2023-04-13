@@ -10,13 +10,13 @@
   <h2>Instalação</h2>
   
     <h6>Clone o repositório:</h6>
-    <pre><code>git clone https://github.com/vitorsantos100798/React_Game_Jokenpo</code></pre>
+    <p>git clone https://github.com/vitorsantos100798/React_Game_Jokenpo</p>
 
     <h6>Navegue até a pasta do projeto:</h6>
-    <pre><code>cd nome-do-repositorio</code></pre>
+    <p>cd nome-do-repositorio</p>
 
     <h6>Instale as dependências:</h6>
-    <pre><code>npm install</code></pre>
+    <p><code>npm install</p>
 
 
   <h2>Utilização</h2>
