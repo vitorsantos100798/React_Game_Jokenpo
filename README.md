@@ -1,4 +1,4 @@
-# Jogo Jokenpo Feito em React 👊✋✌️ 
+# Jogo Jokenpo Com Reactjs 👊✋✌️ 
 
 O Jokenpo é um jogo simples e divertido em que dois jogadores escolhem
 entre pedra, papel ou tesoura, e o vencedor é determinado pela 
