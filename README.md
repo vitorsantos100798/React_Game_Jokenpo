@@ -10,8 +10,6 @@ Clone o repositório:
 git clone https://github.com/vitorsantos100798/React_Game_Jokenpo
 
 ### 📋 Pré-requisitos
-
-De que coisas você precisa para instalar o software e como instalá-lo?
 Para utilizar este projeto, é necessário ter conhecimento em programação
 com a linguagem JavaScript e em desenvolvimento de aplicações com ReactJS.
 
